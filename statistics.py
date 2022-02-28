@@ -1,5 +1,10 @@
+from collections import Counter
+import matplotlib.pyplot as plt
 from typing import List
-import math 
+import math
+
+from egarel13.linear_algebra import sum_of_squares, dot
+
 def mean(xs: List[float]) -> float:
     return sum(xs) / len(xs)
 
@@ -109,6 +114,7 @@ def variance(xs: List[float]) -> float:
     n = len(xs)
     deviations = de_mean(xs)
     return sum_of_squares(deviations) / (n - 1)
+
 
 
 
