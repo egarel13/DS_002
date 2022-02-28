@@ -90,7 +90,9 @@ def quantile(xs: List[float], p: float) -> float:
 #
 #     standard_deviation(xs: List[float]) -> float
 #         The standard deviation is the square root of the variance
-import math 
+
+import math
+
 def standard_deviation(xs: List[float]) -> float:
     """The standard deviation is the square root of the variance"""
     return math.sqrt(variance(xs))
