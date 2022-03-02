@@ -117,7 +117,7 @@ def make_matrix(num_rows: int,
 
 def identity_matrix(n: int) -> Matrix:
     """Returns the n x n identity matrix"""
-    return make_matriz(n, n, lambda i, j: 1 if i == j else 0)
+    return make_matrix(n, n, lambda i, j: 1 if i == j else 0)
 assert identity_matrix(5) == [[1,0,0,0,0],
                               [0,1,0,0,0],
                               [0,0,1,0,0],
