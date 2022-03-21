@@ -12,9 +12,9 @@ import random
 from typing import TypeVar, List, Iterator, Callable
 
 # local code imports
-from .linear_algebra import distance, add, scalar_multiply
-from .linear_algebra import Vector, dot
-from .linear_algebra import vector_mean
+from egarel13.linear_algebra import distance, add, scalar_multiply
+from egarel13.linear_algebra import Vector, dot
+from egarel13.linear_algebra import vector_mean
 
 # other imports
 import matplotlib.pyplot as plt
