@@ -14,7 +14,7 @@ from collections import Counter
 import random
 
 # local code imports
-from .linear_algebra import Vector, distance
+from egarel13.linear_algebra import Vector, distance
 
 # other imports
 import matplotlib.pyplot as plt
